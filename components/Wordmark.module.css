@@ -1,0 +1,45 @@
+.mark {
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+  color: var(--ink);
+  line-height: 1;
+}
+
+.light {
+  color: var(--text-on-dark-strong);
+}
+
+.glyph {
+  width: 26px;
+  height: 26px;
+  flex: none;
+}
+
+.sur {
+  font-family: var(--font-display);
+  font-stretch: 125%;
+  font-weight: 900;
+  font-size: 24px;
+  letter-spacing: -0.01em;
+}
+
+.tech {
+  font-family: var(--font-mono);
+  font-size: 11px;
+  font-weight: 500;
+  letter-spacing: 0.2em;
+}
+
+.sm .glyph {
+  width: 22px;
+  height: 22px;
+}
+
+.sm .sur {
+  font-size: 21px;
+}
+
+.sm .tech {
+  font-size: 10px;
+}
